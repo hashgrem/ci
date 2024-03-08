@@ -6,5 +6,5 @@ all: analyze
 analyze: code.c
     $(CC) $(CFLAGS) -o code code.c
 
-check: your_source_file.c
+check: code.c
     cppcheck --enable=all code.c
