@@ -1,0 +1,3 @@
+- name: Python Safety Check
+  uses: aufdenpunkt/python-safety-check@v1.0.5
+            
