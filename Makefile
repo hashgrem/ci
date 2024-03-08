@@ -1,5 +1,2 @@
-- release: code.c
+all: code.c
     gcc code.c
-
-- run: |
-    make release
